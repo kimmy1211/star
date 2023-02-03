@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>벌써 5년이라구~</title>
+    <style>
+        /* 이서윤체 폰트 적용을 위한 코드 */
+        @font-face{
+            font-family: "LeeSeoyun";
+            src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff") format("woff");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body{
+            font-family: "LeeSeoyun";
+            margin:0;
+            display:flex;
+            justify-content: center;
+            background-image: url("./background.png");
+        }
+
+        .container{
+            width:390px;
+            background-color: #ebb7b7;
+            height:100%;
+        }
+        .photos{
+            margin-top: 30px;
+        }
+        .photo-frame{
+            background-color: rgb(255, 255, 255);
+            margin: 15px 20px;
+            height:200px;
+            background-size: cover;
+            position: relative;
+            background-repeat:no-repeat;
+            
+        }
+        .footer{
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+           
+        }
+        .f-title{
+            color:#4e5de4;
+            font-size:25px;
+            font-weight: 100;
+        
+        }
+        .f-date{
+            color:rgb(243, 95, 95);
+            font-size:15px;
+            font-weight: 500;
+
+        }
+        #image1{
+            background-image: url("./kim1.jpg");
+        }
+        #image2{
+            background-image: url("./kim2.jpg");
+        }
+        #image3{
+            background-image: url("./kim3.jpg");
+            
+        }
+        #image4{
+            background-image: url("./kim4.jpg");
+        }
+        .photo-descrption{
+            color:#4e5de4;
+            background-color: rgb(243, 213, 211);
+            width:fit-content;
+            padding:0 20px;
+            margin-bottom:10px;
+            border-radius: 10px;
+            position:absolute;
+            bottom:0;
+           
+            
+
+            /* transform:translate(-50%);
+            left:50%; */
+
+
+        }
+        
+        #title{
+            color:rgb(230, 92, 92);
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body> 
+    <div class="container">
+        <h2 id="title">2022 효별네컷&nbsp;&nbsp;&nbsp;</h2>
+        <div class="photos">
+
+            <div id="image1" class="photo-frame">
+            <span id="desc1" class="photo-descrption">
+                4월의 밴쿠버 </span>
+
+            </div>
+            
+            <div id="image2" class="photo-frame">
+            <span id="desc2" class="photo-descrption">
+                6월의 캘거리</span>
+            
+            </div>
+            
+            <div id="image3" class="photo-frame">
+            <span id="desc3" class="photo-descrption">
+                10월의 토론토</span>
+           
+            </div>
+            
+            <div id="image4" class="photo-frame">
+            <span id="desc4" class="photo-descrption">
+                12월의 칸쿤</span>
+            
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="f-title"> HAPPY 5YEARS ANNIVERSARY <br>&nbsp;&nbsp;♥ I LOVE YOU FOREVER ♥</p>
+            <p class="f-date">2023.02.09</p>
+        </div>
+    </div>
+</body>
+</html>
